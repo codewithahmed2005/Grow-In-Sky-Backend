@@ -552,6 +552,46 @@ footer {
     gap: 40px;
 }
 
+/* Simple Footer Links Fix */
+.footer-section a {
+    color: #38bdf8 !important; /* Light blue that works in both themes */
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    padding: 3px 0;
+}
+
+.footer-section a:hover {
+    color: #60a5fa !important; /* Lighter blue on hover */
+    transform: translateX(5px);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+/* Make all footer text consistent */
+.footer-section p {
+    color: #cbd5e1 !important;
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.footer-section h3 {
+    color: #ffffff !important;
+    margin-bottom: 20px;
+}
+
+/* Email and phone in footer */
+.footer-contact p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-contact i {
+    color: #38bdf8;
+    width: 20px;
+}
+
 .footer-section h3 {
     font-size: 1.3rem;
     margin-bottom: 20px;
